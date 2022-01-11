@@ -2,7 +2,7 @@
 ![]()
 
 ## Overview
-This is an application that allows users to 
+This is an application that allows users to play Tic-Tac-Toe!
 
 
 ## Application Features
@@ -11,7 +11,7 @@ This is an application that allows users to
 3) 
 
 ## Technologies
-
+HTML, CSS, Javascript
 
 ## License 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
