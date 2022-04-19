@@ -1,4 +1,4 @@
-function myFunc({
+function myFunc() {
 
     let b1, b2, b3, b4, b5, b6, b7, b8, b9;
     b1 = document.getElementById("Box1").value;
@@ -11,6 +11,7 @@ function myFunc({
     b1 = document.getElementById("Box8").value;
     b1 = document.getElementById("Box9").value;
 
+    
 
 
 
@@ -22,4 +23,4 @@ function myFunc({
 
 
 
-})
+}
