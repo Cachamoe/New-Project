@@ -11,8 +11,16 @@ function myFunc() {
     b1 = document.getElementById("Box8").value;
     b1 = document.getElementById("Box9").value;
 
-    
-
+    if ((b1 == 'x' || b1 == 'X') && (b2 == 'x' || b2 == 'X') && (b3 == 'x' || b3 == 'X')) {
+        document.getElementById('print').innerHTML = "Player X won!";
+        document.getElementById("b4").disabled = true;
+        document.getElementById("b5").disabled = true;
+        document.getElementById("b6").disabled = true;
+        document.getElementById("b7").disabled = true;
+        document.getElementById("b8").disabled = true;
+        document.getElementById("b9").disabled = true;
+        window.alert('Player X Won!');
+    }
 
 
 
