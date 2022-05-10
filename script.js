@@ -41,7 +41,15 @@ function myFunc() {
         document.getElementById("b6").disabled = true;
         window.alert('Player X Won!');
     }
-
+    else if ((b3 == 'x' || b3 == 'X') && (b6 == 'x' || b6 == 'X') && (b9 == 'x' || b9 == 'X')) {
+        document.getElementById('print').innerHTML = "Player X Won!";
+        document.getElementById("b1").disabled = true;
+        document.getElementById("b2").disabled = true;
+        document.getElementById("b4").disabled = true;
+        document.getElementById("b5").disabled = true;
+        document.getElementById("b7").disabled = true;
+        document.getElementById("b8").disabled = true;
+        window.alert('Player X Won!');
 
 
 
