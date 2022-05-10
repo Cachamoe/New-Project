@@ -50,6 +50,7 @@ function myFunc() {
         document.getElementById("b7").disabled = true;
         document.getElementById("b8").disabled = true;
         window.alert('Player X Won!');
+    }
 
 
 
