@@ -81,7 +81,16 @@ function myFunc() {
         document.getElementById("b9").disabled = true;
         window.alert('Player X won!');
     }
-
+    else if ((b4 == 'x' || b4 == 'X') && (b5 == 'x' || b5 == 'X') && (b6 == 'x' || b6 == 'X')) {
+        document.getElementById('print').innerHTML = "Player X won!";
+        document.getElementById("b1").disabled = true;
+        document.getElementById("b2").disabled = true;
+        document.getElementById("b3").disabled = true;
+        document.getElementById("b7").disabled = true;
+        document.getElementById("b8").disabled = true;
+        document.getElementById("b9").disabled = true;
+        window.alert('Player X won!');
+    }
 
 
 
