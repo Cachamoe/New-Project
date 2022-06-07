@@ -11,6 +11,7 @@ function myFunc() {
     b1 = document.getElementById("Box8").value;
     b1 = document.getElementById("Box9").value;
 
+    // Checking if Player X Won or Not
     if ((b1 == 'x' || b1 == 'X') && (b2 == 'x' || b2 == 'X') && (b3 == 'x' || b3 == 'X')) {
         document.getElementById('print').innerHTML = "Player X Won!";
         document.getElementById("b4").disabled = true;
@@ -92,7 +93,7 @@ function myFunc() {
         window.alert('Player X won!');
     }
 
-    // Checking Player X Finish
+    // Checking if Player 0 Won or Not
     else if ((b1 == '0' || b1 == '0') && (b2 == '0' || b2 == '0') && (b3 == '0' || b3 == '0')) {
     document.getElementById('print').innerHTML = "Player 0 won!";
     document.getElementById("b4").disabled = true;
