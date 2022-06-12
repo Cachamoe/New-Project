@@ -95,14 +95,14 @@ function myFunc() {
 
     // Checking if Player 0 Won or Not
     else if ((b1 == '0' || b1 == '0') && (b2 == '0' || b2 == '0') && (b3 == '0' || b3 == '0')) {
-    document.getElementById('print').innerHTML = "Player 0 won!";
-    document.getElementById("b4").disabled = true;
-    document.getElementById("b5").disabled = true;
-    document.getElementById("b6").disabled = true;
-    document.getElementById("b7").disabled = true;
-    document.getElementById("b8").disabled = true;
-    document.getElementById("b9").disabled = true;
-    window.alert('Player 0 won!');
+        document.getElementById('print').innerHTML = "Player 0 won!";
+        document.getElementById("b4").disabled = true;
+        document.getElementById("b5").disabled = true;
+        document.getElementById("b6").disabled = true;
+        document.getElementById("b7").disabled = true;
+        document.getElementById("b8").disabled = true;
+        document.getElementById("b9").disabled = true;
+        window.alert('Player 0 won!');
     }
     else if ((b1 == '0' || b1 == '0') && (b4 == '0' || b4 == '0') && (b7 == '0' || b7 == '0')) {
         document.getElementById('print').innerHTML = "Player 0 won!";
