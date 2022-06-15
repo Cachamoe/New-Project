@@ -114,5 +114,15 @@ function myFunc() {
         document.getElementById("b9").disabled = true;
         window.alert('Player 0 won!');
     }
-
+    else if ((b7 == '0' || b7 == '0') && (b8 == '0' || b8 == '0') && (b9 == '0' || b9 == '0')) {
+        document.getElementById('print').innerHTML = "Player 0 won!";
+        document.getElementById("b1").disabled = true;
+        document.getElementById("b2").disabled = true;
+        document.getElementById("b3").disabled = true;
+        document.getElementById("b4").disabled = true;
+        document.getElementById("b5").disabled = true;
+        document.getElementById("b6").disabled = true;
+        window.alert('Player 0 won!');
+    }
+    
 }
