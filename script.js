@@ -164,5 +164,14 @@ function myFunc() {
         document.getElementById("b9").disabled = true;
         window.alert('Player 0 won!');
     }
-    
+    else if ((b4 == '0' || b4 == '0') && (b5 == '0' || b5 == '0') && (b6 == '0' || b6 == '0')) {
+        document.getElementById('print').innerHTML = "Player 0 won!";
+        document.getElementById("b1").disabled = true;
+        document.getElementById("b2").disabled = true;
+        document.getElementById("b3").disabled = true;
+        document.getElementById("b7").disabled = true;
+        document.getElementById("b8").disabled = true;
+        document.getElementById("b9").disabled = true;
+        window.alert('Player 0 won!');
+    }
 }
