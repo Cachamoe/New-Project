@@ -174,4 +174,13 @@ function myFunc() {
         document.getElementById("b9").disabled = true;
         window.alert('Player 0 won!');
     }
+    // Checking if Player 0 finished, Checking about Tie
+    else if ((b1 == 'X' || b1 == '0') && (b2 == 'X' || b2 == '0') && (b3 == 'X' || b3 == '0') &&
+        (b4 == 'X' || b4 == '0') && (b5 == 'X' || b5 == '0') && (b6 == 'X' || b6 == '0') &&
+        (b7 == 'X' || b7 == '0') && (b8 == 'X' || b8 == '0') && (b9 == 'X' || b9 == '0')) {
+            document.getElementById('print')
+                .innerHTML = "Match Tie!";
+            window.alert('Match Tie!');
+    }
+    
 }
