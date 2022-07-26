@@ -182,5 +182,15 @@ function myFunc() {
                 .innerHTML = "Match Tie!";
             window.alert('Match Tie!');
     }
-    
+    else {
+        // Printing Result
+        if (flag == 1) {
+            document.getElementById('print')
+                .innerHTML = "Player X Turn";
+        }
+        else {
+            document.getElementById('print')
+                .innerHTML = "Player 0 Turn";
+        }
+    }
 }
