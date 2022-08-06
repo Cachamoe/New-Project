@@ -206,5 +206,19 @@ function Reset() {
     document.getElementById("b8").value = '';
     document.getElementById("b9").value = '';
 }
+// Functions Check Turn of the Player
+flag = 1;
+function myfunc_3() {
+    if (flag == 1) {
+        document.getElementById("b1").value = "X";
+        document.getElementById("b1").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("b1").value = "0";
+        document.getElementById("b1").disabled = true;
+        flag = 1;
+    }
+}
 
 }
