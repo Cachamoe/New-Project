@@ -220,5 +220,17 @@ function myfunc_3() {
         flag = 1;
     }
 }
+function myfunc_4() {
+    if (flag == 1) {
+        document.getElementById("b2").value = "X";
+        document.getElementById("b2").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("b2").value = "0";
+        document.getElementById("b2").disabled = true;
+        flag = 1;
+    }
+}
 
 }
