@@ -244,5 +244,17 @@ function myfunc_5() {
         flag = 1;
     }
 }
+function myfunc_6() {
+    if (flag == 1) {
+        document.getElementById("b4").value = "X";
+        document.getElementById("b4").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("b4").value = "0";
+        document.getElementById("b4").disabled = true;
+        flag = 1;
+    }
+}
 
 }
