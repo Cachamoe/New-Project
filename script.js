@@ -256,5 +256,17 @@ function myfunc_6() {
         flag = 1;
     }
 }
+function myfunc_7() {
+    if (flag == 1) {
+        document.getElementById("b5").value = "X";
+        document.getElementById("b5").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("b5").value = "0";
+        document.getElementById("b5").disabled = true;
+        flag = 1;
+    }
+}
 
 }
