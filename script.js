@@ -268,5 +268,17 @@ function myfunc_7() {
         flag = 1;
     }
 }
+function myfunc_8() {
+    if (flag == 1) {
+        document.getElementById("b6").value = "X";
+        document.getElementById("b6").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("b6").value = "0";
+        document.getElementById("b6").disabled = true;
+        flag = 1;
+    }
+}
 
 }
