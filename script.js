@@ -292,5 +292,17 @@ function myfunc_9() {
         flag = 1;
     }
 }
+function myfunc_10() {
+    if (flag == 1) {
+        document.getElementById("b8").value = "X";
+        document.getElementById("b8").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("b8").value = "0";
+        document.getElementById("b8").disabled = true;
+        flag = 1;
+    }
+}
 
 }
