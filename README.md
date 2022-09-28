@@ -5,11 +5,6 @@
 This is an application that allows users to play Tic-Tac-Toe!
 
 
-## Application Features
-1) 
-2) 
-3) 
-
 ## Technologies
 HTML, CSS, Javascript
 
