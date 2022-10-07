@@ -8,9 +8,9 @@ h1 {
     text-align: center;
 }
 
-#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 
+#Box1, #Box2, #Box3, #Box4, #Box5, #Box6, #Box7, #Box8, #Box9 
 {display: 80px;
-height: 52px;
+height: 65px;
 margin: auto;
 border: 1px solid gray;
 border-radius: 6px;
